@@ -1,0 +1,121 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color: #A52BFF;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #A52BFF;
+    font-size: 1.2rem;
+}
+
+nav img{
+    width: 30%;
+}
+
+header>.container{
+    min-height: 92vh;
+    background-image: url("../images/header-large.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60%;
+}
+
+
+.btn{
+    background-color: transparent;
+    color: #A52BFF;
+    border-color: #A52BFF;
+    
+}
+
+.btn:hover {
+    background-color: #A52BFF;
+    border-color: #A52BFF;
+}
+
+
+.btn:focus{
+    background-color: transparent;
+    color: #A52BFF;
+    border-color: #A52BFF;
+    box-shadow: none !important;
+}
+
+.btn:active{
+    background-color: transparent;
+    color: #A52BFF;
+    border-color: #A52BFF;
+    box-shadow: none !important;
+}
+
+.card-link{
+    color: #A52BFF;
+}
+.card-link:hover{
+    color: #A52BFF;
+}
+
+
+.about>.container{
+    min-height: 60vh;
+    background-image: url("../images/about.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50%;
+}
+
+.contact>.container{
+    min-height: 50vh;
+    background-image: url("../images/contact.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50%;
+}
+
+.contact-list{
+    width: 60%;
+}
+
+.contact-list i {
+    color: #A52BFF;
+}
+
+.contact a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: #A52BFF;
+}
+
+
+@media (max-width:760px){
+
+    header>.container{
+        background-image: url("../images/header-small.svg");
+        background-position: 100% 70%;
+        align-items: flex-start !important;
+    }
+
+    .header-caption{
+        margin-top: 70px;
+    }
+
+    .about>.container{
+        background-image: none;
+    }
+
+    .about-caption{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact>.container{
+        background-image: none;
+    }
+
+    .contact-list{
+        width: 100%;
+    }
+}
